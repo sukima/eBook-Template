@@ -8,7 +8,7 @@
 
 # Constants
 DIR=_build
-TITLE="synapse-user-manual"
+TITLE="eBook-Template"
 
 # Uncomment or comment to enable or disable
 PDF="yes"
