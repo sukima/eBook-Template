@@ -2,7 +2,9 @@ Template for Writing an eBook
 =============================
 
 This project contains a template used to write eBooks using
-[AsciiDoc][1], Git, MacVim and other tools on Mac OS X.
+[AsciiDoc][1].
+
+This a fork of [akosmasoftware's eBook-Template][2].
 
 The aim of the project is to provide a boilerplate used to generate
 eBooks in several formats on one operation:
@@ -10,7 +12,6 @@ eBooks in several formats on one operation:
 - Self-contained HTML
 - ePub
 - PDF
-- Kindle
 
 Motivation
 ----------
@@ -108,6 +109,9 @@ dblatex has to be installed using a custom Homebrew formula, because the
 default installation does not include it at the time of this writing.
 This might change in the future.
 
+On Ubuntu you must install the `asciidoc` package which includes
+`dblatex` and the missing `tex-gyre` package.
+
 ### Why not generating the HTML using a2x?
 
 Using a2x for the HTML creation has the following drawbacks:
@@ -133,9 +137,8 @@ Use, share, transform, as much as you want. I hope you find it useful!
 
 
 
-[1]:http://www.methods.co.nz/asciidoc/
-[2]:http://mxcl.github.com/homebrew/
-[3]:http://www.amazon.com/gp/feature.html?ie=UTF8&docId=1000234621
-[4]:http://francisshanahan.com/index.php/2011/fixing-epub-problem-docbook-xsl-asciidoc-a2x/
-[5]:http://hackage.haskell.org/trac/ghc/wiki/Building/MacOSX
+[1]: http://www.methods.co.nz/asciidoc/
+[2]: https://github.com/akosmasoftware/eBook-Template
+[4]: http://francisshanahan.com/index.php/2011/fixing-epub-problem-docbook-xsl-asciidoc-a2x/
+[5]: http://hackage.haskell.org/trac/ghc/wiki/Building/MacOSX
 
